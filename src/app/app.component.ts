@@ -14,6 +14,7 @@ export class AppComponent {
   title = 'playing-card';
   monster1! : Monster ; 
   count: number = 0; 
+  search = '' ; 
   constructor(){
     this.monster1=new Monster() ; 
     this.monster1.name="Pick";
