@@ -2,7 +2,7 @@ import { Monster } from './models/monster.model';
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { PlayingCardComponent } from "../components/playing-card/playing-card.component";
-import { SearchBarComponent } from "./component/search-bar/search-bar.component";
+import { SearchBarComponent } from "../components/search-bar/search-bar.component";
 
 @Component({
   selector: 'app-root',
