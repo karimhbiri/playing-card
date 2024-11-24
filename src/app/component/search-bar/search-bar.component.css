@@ -1,0 +1,29 @@
+#search-bar {
+    display: flex;
+    background-color: white;
+    border-radius: 40px;
+    margin: 50px auto;
+    width: 400px;
+    box-shadow: 3px 3px 10px -3px grey;
+    overflow: hidden;
+}
+input{
+    all: unset;
+    padding: 10px;
+    margin: 10px ;
+    flex-grow: 1;
+}
+button{
+    border: none;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 40px;
+    cursor: pointer;
+    width: 30px;
+    background-color: rgb(205, 205, 255) ;
+}
+
+button img{
+    max-width: 18px;
+    max-height: 18px;
+}
